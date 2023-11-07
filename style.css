@@ -5,6 +5,7 @@ body {
 .flex-parent {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 30px;
 }
 
@@ -27,6 +28,7 @@ body {
   background-color: rgba(34, 34, 34, 0.967);
   display: flex;
   justify-content: center;
+  align-content: stretch;
   margin: 1px 260px 1px 260px;
 }
 
@@ -73,7 +75,7 @@ p {
   float: left;
   width: 630px;
   height: 45px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: rgb(64, 64, 64);
   border: black;
