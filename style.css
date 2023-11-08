@@ -1,7 +1,7 @@
 body {
   background-color: black;
 }
-
+/* first section  */
 .flex-parent {
   display: flex;
   justify-content: center;
@@ -24,11 +24,12 @@ body {
   text-align: center;
 }
 
+/* second section */
 .flex-parent2 {
   background-color: rgba(34, 34, 34, 0.967);
   display: flex;
   justify-content: center;
-  align-content: stretch;
+
   margin: 1px 260px 1px 260px;
 }
 
@@ -60,14 +61,18 @@ p {
   color: rgb(161, 167, 172);
 }
 
+/* section 3  */
 .flex-parent3 {
   margin: 1px 260px 1px 260px;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .flex-child3 {
   background-color: rgb(37, 36, 36);
   padding: 15px;
+  align-items: center;
 }
 
 .selection {
@@ -100,4 +105,8 @@ h2 {
 
 .side-text {
   color: white;
+}
+
+.flex-child4 {
+  display: flex;
 }
